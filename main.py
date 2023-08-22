@@ -36,7 +36,7 @@ class Auto:
             return('Auto original')
         else:
             return('Las piezas no son originales')
-    def cantidadAssientos(self):
+    def cantidadAsientos(self):
         numAsientos = 0
         for i in range(asientos.len):
             if isinstance(asiento[i], Asiento):
